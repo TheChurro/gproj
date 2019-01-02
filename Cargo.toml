@@ -14,6 +14,7 @@ vulkan = ["gfx-backend-vulkan"]
 gfx-hal = { git = "https://github.com/gfx-rs/gfx", version = "0.1" }
 glsl-to-spirv-macros = "0.1.1"
 glsl-to-spirv-macros-impl = "0.1.0"
+obj = "0.9.0"
 
 [dependencies.gfx-backend-gl]
 git = "https://github.com/gfx-rs/gfx"

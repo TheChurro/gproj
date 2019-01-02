@@ -1,0 +1,25 @@
+{
+  "name":   "current_proj",
+  "cmd":    "cargo build",
+  "sh":     true,
+  "cwd":    "{PROJECT_PATH}/projs/gpu_path_trace",
+  "targets": {
+    "built_gpu_path_trace": {
+      "cmd":    "cargo build",
+      "sh":     true,
+      "cwd":    "{PROJECT_PATH}/projs/gpu_path_trace"
+    },
+    "run_gpu_path_trace": {
+      "cmd":    "cargo run",
+      "sh":     true,
+      "keymap": "cmd-alt-r",
+      "cwd":    "{PROJECT_PATH}/projs/gpu_path_trace"
+    },
+    "fmt_gpu_path_trace": {
+      "cmd":    "cargo fmt",
+      "sh":     true,
+      "keymap": "cmd-alt-f",
+      "cwd":    "{PROJECT_PATH}/projs/gpu_path_trace"
+    }
+  }
+}
