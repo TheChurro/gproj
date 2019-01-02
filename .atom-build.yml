@@ -1,0 +1,3 @@
+name: build_lib
+cmd:  cargo build
+sh:   true
